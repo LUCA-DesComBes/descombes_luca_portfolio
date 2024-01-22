@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #151515;
+  color: white;
+}
+.img-mobile {
+  display: flex;
+  align-items: center;
+  margin-left: 100px; margin-bottom: 20px;
+  /* background-image: url("./img/image-profile-mobile.webp"); */
+} 
+h1 {
+  position: relative; left: 120px; bottom: 383px; 
+  font-weight: 700;
+  font-size: 24px;
+}
+nav {
+  height: 420px;
+}
+.rings {
+  display: flex;
+  position: relative; bottom: 310px; right: 340px;
+  z-index: -1;
+}
+.circle {
+  display: flex;
+  margin-left:310px;
+  position: relative; bottom: 310px;
+}
+.github  {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 620px; left: 110px;
+}
+.favicon {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 642px; left: 152px;
+}
+.linkedin {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 665px; left: 200px;
+}
+.twitter {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 687px; left: 245px;
+}
+.nice {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+button {
+  font-size: 40px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+}
+.based {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #D9D9D9;
+  font-size: 16px;
+  font-weight: 500;
+}
+.contact {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin: 0px 0px 80px 140px;
+}
+hr {
+  margin-left: 18px;
+  margin-right: 18px;
+  margin-bottom: 40px;
+}
+h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+}
+.year1{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 24px;
+}
+.year2{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 24px;
+}
+.year3{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 24px;
+}
+.year4{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 24px;
+}
+.year5{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 24px;
+}
+.year6{
+  text-align: center;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-bottom: 36px;
+}
+
