@@ -8,6 +8,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   background-color: #151515;
   color: white;
+  height: 5013px;
 }
 .img-mobile {
   display: flex;
@@ -85,8 +86,8 @@ button {
   margin: 0px 0px 80px 140px;
 }
 hr {
-  margin-left: 18px;
-  margin-right: 18px;
+  margin-left: 16px;
+  margin-right: 16px;
   margin-bottom: 40px;
 }
 h2 {
@@ -130,4 +131,109 @@ h2 {
   color: #D9D9D9;
   margin-bottom: 36px;
 }
-
+.projects {
+  margin-top: 80px;
+  font-size: 40px;
+  color: white;
+  margin-left: 16px;
+  font-weight: 700;
+}
+.section1 {
+  grid-auto-rows: auto;
+}
+.contact2 {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 250px;
+  position: relative; bottom: 42px;
+}
+.project1 {
+  height: 253px;
+  width: 345px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.designall {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-bottom: 7px;
+}
+.htmlall {
+  font-size: 18px;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-left: 16px;
+}
+.cssall {
+  font-size: 18px;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-left: 83px; 
+  position: relative; bottom: 23px;
+}
+.viewall {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 16px;
+  margin-bottom: 40px;
+}
+.codeall {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 32px;
+  margin-bottom: 40px;
+}
+.jsall {
+  font-size: 18px;
+  font-weight: 500;
+  color: #D9D9D9;
+  margin-left: 136px; 
+  position: relative; bottom: 46px;
+}
+.viewall1 {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 16px;
+  margin-bottom: 40px;
+  position: relative; bottom: 20px;
+}
+.codeall1 {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #151515;
+  color: white;
+  padding-bottom: 10px;
+  margin-left: 32px;
+  margin-bottom: 40px;
+  position: relative; bottom: 20px;
+}
+.project2 {
+  height: 253px;
+  width: 345px;
+  margin-left: 15px;
+  margin-right: 15px; 
+}
