@@ -64,7 +64,7 @@ body {
   font-size: 40px;
   font-weight: 700;
 }
-button {
+.button {
   font-size: 40px;
   font-weight: 700;
   border: 0px solid;
@@ -227,20 +227,20 @@ h2 {
   .img-tablet {
     display: grid;
     opacity: 100%;
-    position: relative; left: 475px; bottom: 40px;
+    position: relative; left: 487px; bottom: 40px;
   }
   .he1 {
     font-size: 32px;
     font-weight: 700;
     margin-left: 30px;
-    position: relative; bottom: 571px;
-    margin-bottom: 25px;
+    position: relative; bottom: 575px;
   }
    .rings1 {
     display: grid;
     width: 530px;
     height: 129px;
     position: relative; bottom: 575px; right: 250px;
+    margin-bottom: 37px;
   }
   .circle1 {
     display: grid;
@@ -252,29 +252,68 @@ h2 {
   .github1 {
     display: grid;
     grid-auto-rows: auto;
-    position: relative; bottom: 885px; left: 580px;
+    position: relative; bottom: 900px; left: 580px;
   }
   .favicon1 {
-    display: flex;
+    display: grid;
     grid-auto-rows: auto;
-    position: relative; bottom: 907px; left: 630px;
+    position: relative; bottom: 922px; left: 630px;
   } 
   .linkedin1 {
-    display: flex;
-    flex-direction: row;
-    position: relative; bottom: 930px; left: 680px;
+    display: grid;
+    grid-auto-rows: auto;
+    position: relative; bottom: 945px; left: 680px;
   }
   .twitter1 {
-    display: flex;
-    flex-direction: row;
-    position: relative; bottom: 952px; left: 730px;
+    display: grid;
+    grid-auto-rows: auto;
+    position: relative; bottom: 967px; left: 730px;
   } 
   .nice1 {
     display: grid;
     font-size: 48px;
     font-weight: 700;
+    margin-left: 32px;
+    position: relative; bottom: 162px;
   }
   .nice {
+    display: none;
+  }
+  .button1 {
+    font-size: 48px;
+    font-weight: 700;
+    border: 0px solid;
+    border-bottom: 4px solid #4EE1A0;
+    background-color: #151515;
+    padding-bottom: 1px;
+    color: white;
+    margin-left: 238px;
+    margin-right: 241px;
+    position: relative; right: 155px; bottom: 57px;
+    margin-bottom: 60px;
+  }
+  .based1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 32px;
+    position: relative; bottom: 197px;
+    color: #D9D9D9;
+  }
+  .based {
+    display: none;
+  }
+  .contact1 {
+    font-size: 16px;
+    font-weight: 700;
+    border: 0px solid;
+    border-bottom: solid #4EE1A0;
+    background-color: #151515;
+    color: white;
+    padding-bottom: 10px;
+    margin-left: 32px;
+    position: relative; bottom: 162px;
+  }
+  .contact {
     display: none;
   }
 }
