@@ -8,73 +8,62 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   background-color: #151515;
   color: white;
-  height: 5013px;
+  height: 478px;
+  /* overflow: hidden; */
 }
 .img-mobile {
   display: flex;
   align-items: center;
-  margin-left: 100px; margin-bottom: 20px;
-  opacity: 100%;
+  margin-left: 6.25rem; margin-bottom: 1.25rem;
   /* background-image: url("./img/image-profile-mobile.webp"); */
 }
 .img-tablet {
   display: none;
-  opacity: 0%;
 } 
-.he {
-  position: relative; left: 120px; bottom: 383px; 
+h1 {
+  position: relative; left: 7.5rem; bottom: 23.938rem; 
   font-weight: 700;
   font-size: 24px;
 }
-.nav1 {
+nav {
   height: 420px;
-}
-.rings {
-  display: flex;
-  position: relative; bottom: 310px; right: 340px;
-  z-index: -1;
-}
-.circle {
-  display: flex;
-  margin-left:310px;
-  position: relative; bottom: 310px;
 }
 .github  {
   display: flex;
   flex-direction: row;
-  position: relative; bottom: 620px; left: 110px;
+  position: relative; bottom: 23.125rem; left: 6.875rem;
 }
 .favicon {
   display: flex;
   flex-direction: row;
-  position: relative; bottom: 642px; left: 152px;
+  position: relative; bottom: 24.5rem; left: 9.5rem;
 }
 .linkedin {
   display: flex;
   flex-direction: row;
-  position: relative; bottom: 665px; left: 200px;
+  position: relative; bottom: 25.938rem; left: 12.5rem;
 }
 .twitter {
   display: flex;
   flex-direction: row;
-  position: relative; bottom: 687px; left: 245px;
+  position: relative; bottom: 27.313rem; left: 15.313rem;
 }
 .nice {
   text-align: center;
   font-size: 40px;
   font-weight: 700;
 }
-.button {
+button {
   font-size: 40px;
   font-weight: 700;
   border: 0px solid;
-  border-bottom: solid #4EE1A0;
+  border-bottom: 4px solid #4EE1A0;
   background-color: #151515;
   color: white;
 }
 .based {
-  margin-top: 24px;
-  margin-bottom: 24px;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
   text-align: center;
   color: #D9D9D9;
   font-size: 16px;
@@ -87,13 +76,13 @@ body {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin: 0px 0px 80px 140px;
+  padding-bottom: 0.625rem;
+  margin: 0rem 0rem 5rem 8.75rem;
 }
 hr {
-  margin-left: 16px;
-  margin-right: 16px;
-  margin-bottom: 40px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 2.5rem;
 }
 h2 {
   text-align: center;
@@ -104,13 +93,13 @@ h2 {
   text-align: center;
   font-weight: 500;
   color: #D9D9D9;
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 .projects {
-  margin-top: 80px;
-  font-size: 40px;
+  margin-top: 5rem;
+  font-size: 2.5rem;
   color: white;
-  margin-left: 16px;
+  margin-left: 1rem;
   font-weight: 700;
 }
 .section1 {
@@ -123,35 +112,35 @@ h2 {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin-left: 250px;
-  position: relative; bottom: 42px;
+  padding-bottom: 0.625rem;
+  margin-left: 15.625rem;
+  position: relative; bottom: 2.625rem;
 }
 .project1 {
   height: 253px;
   width: 345px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 0.9rem;
+  margin-right: 0.9rem;
 }
 .designall {
   font-size: 24px;
   font-weight: 700;
-  margin-top: 20px;
-  margin-left: 16px;
-  margin-bottom: 7px;
+  margin-top: 1.25rem;
+  margin-left: 1rem;
+  margin-bottom: 0.438rem;
 }
 .htmlall {
   font-size: 18px;
   font-weight: 500;
   color: #D9D9D9;
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 .cssall {
   font-size: 18px;
   font-weight: 500;
   color: #D9D9D9;
-  margin-left: 83px; 
-  position: relative; bottom: 23px;
+  margin-left: 5.188rem; 
+  position: relative; bottom: 1.438rem;
 }
 .viewall {
   font-size: 16px;
@@ -160,9 +149,9 @@ h2 {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin-left: 16px;
-  margin-bottom: 40px;
+  padding-bottom: 0.625rem;
+  margin-left: 1rem;
+  margin-bottom: 2.5rem;
 }
 .codeall {
   font-size: 16px;
@@ -171,16 +160,16 @@ h2 {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin-left: 32px;
-  margin-bottom: 40px;
+  padding-bottom: 0.625rem;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
 }
 .jsall {
   font-size: 18px;
   font-weight: 500;
   color: #D9D9D9;
-  margin-left: 136px; 
-  position: relative; bottom: 46px;
+  margin-left: 8.5rem; 
+  position: relative; bottom: 2.875rem;
 }
 .viewall1 {
   font-size: 16px;
@@ -189,10 +178,10 @@ h2 {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin-left: 16px;
-  margin-bottom: 40px;
-  position: relative; bottom: 20px;
+  padding-bottom: 0.625rem;
+  margin-left: 1rem;
+  margin-bottom: 2.5rem;
+  position: relative; bottom: 1.25rem;
 }
 .codeall1 {
   font-size: 16px;
@@ -201,18 +190,122 @@ h2 {
   border-bottom: solid #4EE1A0;
   background-color: #151515;
   color: white;
-  padding-bottom: 10px;
-  margin-left: 32px;
-  margin-bottom: 40px;
-  position: relative; bottom: 20px;
+  padding-bottom: 0.625rem;
+  margin-left: 2rem;
+  margin-bottom: 2.5rem;
+  position: relative; bottom: 1.25rem;
 }
 .project2 {
   height: 253px;
   width: 345px;
-  margin-left: 15px;
-  margin-right: 15px; 
+  margin-left: 0.938rem;
+  margin-right: 0.938rem; 
 }
-@media screen and (min-width: 640px){
+footer {
+  height: 849px;
+  background-color: #242424;
+}
+.me {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 1.25rem;
+}
+.would {
+  text-align: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #D9D9D9;
+  margin-bottom: 3.125rem;
+}
+.name {
+  background-color: #242424;
+  border: none;
+  width: 21.438rem;
+  margin-left: 1rem;
+  border-bottom: 2px solid #D9D9D9;
+  color: #D9D9D9;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.nom {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.5;
+  position: relative; bottom: 4.5rem;
+  margin-left: 2.5rem;
+}
+input:focus {
+  outline: none;
+}
+.message {
+  background-color: #242424;
+  border: none;
+  width: 21.438rem;
+  margin-left: 1rem;
+  border-bottom: 2px solid #D9D9D9;
+  color: #D9D9D9;
+  font-size: 16px;
+  margin-top: 8.625rem;
+  margin-bottom: 2rem;
+}
+.msg {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  opacity: 0.5;
+  position: relative; bottom: 11rem;
+  margin-left: 2.5rem;
+}
+.send {
+  font-size: 16px;
+  font-weight: 700;
+  border: 0px solid;
+  border-bottom: solid #4EE1A0;
+  background-color: #242424;
+  color: white;
+  padding-bottom: 0.625rem;
+  margin-left: 13.438rem;
+  margin-bottom: 5.438rem;
+}
+.adam {
+  text-align: center;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 1.25rem;
+}
+.github2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 6.938rem;
+}
+.favicon2 {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 1.438rem;
+  margin-left: 9.688rem;
+}
+.linkedin2 {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 2.938rem;
+  margin-left: 12.688rem;
+}
+.twitter2 {
+  display: flex;
+  flex-direction: row;
+  position: relative; bottom: 4.25rem;
+  margin-left: 15.625rem;
+}
+ input:invalid {
+  border-bottom: 2px solid red;
+}
+input:valid {
+  border-bottom: 2px solid #4EE1A0;
+}  
+/* @media screen and (min-width: 640px){
   .nav1 {
     display: none;
   }
@@ -316,4 +409,4 @@ h2 {
   .contact {
     display: none;
   }
-}
+} */
